@@ -7,7 +7,7 @@ int main(int argc, char **argv) {
 	// HTTP
 	httplib::Client cli("http://localhost:4567");
 
-	auto res = cli.Get("/api/facts");
+	auto res = cli.Get("/api/facts?number=1");
 	std::cout<<res->status<<std::endl;
 	std::cout<<res->body<<std::endl;
 	return 0;
