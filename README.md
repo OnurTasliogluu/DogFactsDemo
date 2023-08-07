@@ -12,7 +12,9 @@ Compile:
 ```sh
 cd DogFactsDemo
 mkdir build
+cd build
 cmake ..
+make
 ```
 Run program:
 ```sh
